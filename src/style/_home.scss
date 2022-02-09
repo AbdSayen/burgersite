@@ -1,0 +1,19 @@
+.home {
+    background-image: url(./../img/home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 45rem;
+    .info {
+        padding-top: 10rem;
+        h1 {
+            font-size: 7rem;
+        }
+        h5 {
+            background-color: red;
+            padding: 0.5rem;
+            width: 13.5rem;
+        }
+    }
+}

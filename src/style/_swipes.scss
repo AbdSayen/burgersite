@@ -1,0 +1,53 @@
+.window {
+    // width: max-content;
+    height: 30rem;
+    position: relative;
+    .active {
+        display: block !important;
+    }
+    .btn {
+        position: absolute;
+        z-index: 3;
+        bottom: 35%;
+        border: 0.3rem;
+        background: none;
+        width: 3rem;
+        height: 6rem;
+        color: white;
+        font-size: 3rem;
+    }
+    .prev-btn {
+        left: 0.5rem;
+        color: black;
+    }
+    .next-btn {
+        right: 0.5rem;
+        color: black;
+    }
+    .prev-btn,
+    .next-btn {
+        font-size: 5rem;
+        transition: 0.5s;
+        align-items: center;
+        text-align: center;
+        &:hover {
+            transform: scale(0.8);
+        }
+    }
+    .info-text {
+        position: absolute;
+        margin: 1rem;
+        padding: 1rem;
+        background-color: rgba($color: #fff, $alpha: 0.5);
+        width: 75%;
+        border-radius: 0.5rem;
+    }
+    .slide {
+        position: relative;
+        width: max-content;
+        display: none;
+        img {
+            border-radius: 0.5rem;
+        }
+    }
+}

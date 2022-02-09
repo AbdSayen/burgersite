@@ -1,0 +1,314 @@
+.App button {
+  background-color: red;
+  border: red 1px solid;
+  color: white;
+  padding: 1rem 2rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.App button:hover {
+  background: none;
+  color: red;
+}
+
+.App .info-text {
+  color: #c2c2c2;
+}
+
+.home {
+  background-image: url(./../img/home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 45rem;
+}
+
+.home .info {
+  padding-top: 10rem;
+}
+
+.home .info h1 {
+  font-size: 7rem;
+}
+
+.home .info h5 {
+  background-color: red;
+  padding: 0.5rem;
+  width: 13.5rem;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+nav .navBar {
+  position: absolute;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+nav .navBar li {
+  padding: 2rem 0;
+  margin-right: 2rem !important;
+  list-style: none;
+  cursor: pointer;
+}
+
+nav .navBar li:hover {
+  color: red;
+}
+
+.VarietyCards {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.VarietyCards .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.VarietyCards .VarietyCard {
+  width: 15rem;
+}
+
+.VarietyCards .VarietyCard img {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+
+.chooseEnjoy .info {
+  text-align: center;
+  padding-top: 10rem;
+  margin: 3rem 0;
+}
+
+.chooseEnjoy .info h1 {
+  font-size: 5rem;
+}
+
+.chooseEnjoy .info h5 {
+  background-color: red;
+  padding: 0.5rem;
+  width: 13.5rem;
+  color: white;
+  margin: auto;
+}
+
+.chooseEnjoy .info p {
+  font-size: 1.7rem;
+}
+
+.chooseEnjoy button {
+  color: red;
+  background: none;
+  border: 1px red solid;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.chooseEnjoy button:hover {
+  color: white;
+  background-color: red;
+}
+
+.chooseEnjoy .CEProducts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chooseEnjoy .CEProducts .CEProduct {
+  text-align: center;
+  width: calc(100% / 3 - 2%);
+}
+
+.newProducts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: white;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.newProducts .newProduct {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 49.5%;
+  height: 37rem;
+  margin: 0.25rem;
+}
+
+.newProducts .newProduct .text-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 !important;
+  padding: 0 4rem;
+}
+
+.newProducts .newProduct .text-container .text-width {
+  width: 37rem;
+}
+
+.newProducts .newProduct .text-container .new-text {
+  background-color: red;
+  padding: 0.2rem 0.5rem;
+  text-align: center !important;
+}
+
+.newProducts .newProduct .text-container .new-aling {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.newProducts .newProduct .text-container h1 {
+  font-size: 4rem;
+}
+
+.newProducts .newProduct .text-container button {
+  background: none;
+  border: 1px white solid;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.newProducts .newProduct .text-container button:hover {
+  color: black;
+  background-color: white;
+}
+
+.newProduct:nth-child(2n) {
+  text-align: left;
+}
+
+.newProduct:nth-child(2n) .new-aling {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
+.newProduct:nth-child(2n+1) {
+  text-align: right;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+}
+
+.newProduct:nth-child(2n+1) .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.newProduct:nth-child(2n+1) .new-aling {
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+}
+
+.window {
+  height: 30rem;
+  position: relative;
+}
+
+.window .active {
+  display: block !important;
+}
+
+.window .btn {
+  position: absolute;
+  z-index: 3;
+  bottom: 35%;
+  border: 0.3rem;
+  background: none;
+  width: 3rem;
+  height: 6rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.window .prev-btn {
+  left: 0.5rem;
+  color: black;
+}
+
+.window .next-btn {
+  right: 0.5rem;
+  color: black;
+}
+
+.window .prev-btn,
+.window .next-btn {
+  font-size: 5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.window .prev-btn:hover,
+.window .next-btn:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.window .info-text {
+  position: absolute;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 75%;
+  border-radius: 0.5rem;
+}
+
+.window .slide {
+  position: relative;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: none;
+}
+
+.window .slide img {
+  border-radius: 0.5rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,16 @@
+.App {
+    button {
+        background-color: red;
+        border: red 1px solid;
+        color: white;
+        padding: 1rem 2rem;
+        transition: 0.2s;
+        &:hover {
+            background: none;
+            color: red;
+        }
+    }
+    .info-text {
+        color: rgb(194, 194, 194);
+    }
+}

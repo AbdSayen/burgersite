@@ -1,0 +1,39 @@
+.chooseEnjoy {
+    .info {
+        text-align: center;
+        padding-top: 10rem;
+        h1 {
+            font-size: 5rem;
+        }
+        h5 {
+            background-color: red;
+            padding: 0.5rem;
+            width: 13.5rem;
+            color: white;
+            margin: auto;
+        }
+        p {
+            font-size: 1.7rem;
+        }
+        margin: 3rem 0;
+    }
+    button {
+        color: red;
+        background: none;
+        border: 1px red solid;
+        transition: 0.3s;
+        &:hover {
+            color: white;
+            background-color: red;
+        }
+    }
+    .CEProducts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .CEProduct {
+            text-align: center;
+            width: calc(100% / 3 - 2%);
+        }
+    }
+}
