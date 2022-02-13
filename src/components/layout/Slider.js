@@ -2,56 +2,7 @@ import { useState, useEffect } from 'react';
 import Slide from "./Slide";
 
 const Slider = () => {
-    let slides = document.querySelectorAll('.slide');
     let index = 0;
-
-    const SelectSlide = id => {
-        console.log(id);
-
-        index = id;
-
-        slides.forEach((slide) => {
-            slide.classList.remove('active');
-        });
-
-        slides[index].classList.add('active');
-    }
-
-    const createSelector = () => {
-        for (let index = 0; index < slides.length; index++) {
-            let circle = document.createElement('div');
-            circle.classList.add('circle');
-            circle.setAttribute('data-id', index);
-        }
-    }
-
-    const swipeNext = () => {
-        index++;
-        if (index >= slides.length) {
-            index = 0;
-        }
-
-        slides.forEach((slide) => {
-            slide.classList.remove('active');
-        });
-
-        slides[index].classList.add('active');
-    }
-
-    const swipePrev = () => {
-        index--;
-        if (index == -1) {
-            index = slides.length - 1;
-        }
-
-        slides.forEach((slide) => {
-            slide.classList.remove('active');
-        });
-
-        slides[index].classList.add('active');
-    }
-
-    createSelector();
 
     const [info, setInfo] = useState(null)
     const [isLoading, setLoading] = useState(true);

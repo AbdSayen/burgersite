@@ -18,11 +18,11 @@
     }
     .prev-btn {
         left: 0.5rem;
-        color: black;
+        color: gray;
     }
     .next-btn {
         right: 0.5rem;
-        color: black;
+        color: gray;
     }
     .prev-btn,
     .next-btn {
@@ -46,8 +46,38 @@
         position: relative;
         width: max-content;
         display: none;
-        img {
-            border-radius: 0.5rem;
+        width: 100%;
+        padding: 7rem 0;
+        .d-flex {
+            width: 50rem;
+            margin: auto !important;
+            img {
+                height: 25rem;
+                margin-right: 3rem;
+            }
+            div {
+                margin-top: 2rem;
+                .info-text {
+                    margin: 0;
+                    padding: 0;
+                    width: 25rem;
+                }
+                h5 {
+                    background-color: red;
+                    color: white;
+                    padding: 0.25rem 0.5rem;
+                    width: max-content;
+                }
+                button {
+                    margin: 5rem 0;
+                    background: none;
+                    color: red;
+                    &:hover {
+                        background-color: red;
+                        color: white;
+                    }
+                }
+            }
         }
     }
 }

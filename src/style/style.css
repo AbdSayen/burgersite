@@ -266,12 +266,12 @@ nav .navBar li:hover {
 
 .window .prev-btn {
   left: 0.5rem;
-  color: black;
+  color: gray;
 }
 
 .window .next-btn {
   right: 0.5rem;
-  color: black;
+  color: gray;
 }
 
 .window .prev-btn,
@@ -306,9 +306,52 @@ nav .navBar li:hover {
   width: -moz-max-content;
   width: max-content;
   display: none;
+  width: 100%;
+  padding: 7rem 0;
 }
 
-.window .slide img {
-  border-radius: 0.5rem;
+.window .slide .d-flex {
+  width: 50rem;
+  margin: auto !important;
+}
+
+.window .slide .d-flex img {
+  height: 25rem;
+  margin-right: 3rem;
+}
+
+.window .slide .d-flex div {
+  margin-top: 2rem;
+}
+
+.window .slide .d-flex div .info-text {
+  margin: 0;
+  padding: 0;
+  width: 25rem;
+}
+
+.window .slide .d-flex div h5 {
+  background-color: red;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.window .slide .d-flex div button {
+  margin: 5rem 0;
+  background: none;
+  color: red;
+}
+
+.window .slide .d-flex div button:hover {
+  background-color: red;
+  color: white;
+}
+
+footer {
+  width: 20rem;
+  background-color: red;
 }
 /*# sourceMappingURL=style.css.map */
