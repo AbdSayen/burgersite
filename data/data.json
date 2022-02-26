@@ -1,68 +1,68 @@
 {
     "varietry": [{
-            "id": "1",
+            "id": "0",
             "path": "https://i.imgur.com/J5eQyPA.png",
             "title": "GRILL`D BURGERS",
             "text": "Beetroot water spinach okra water chestnut ricebean pea."
         },
         {
-            "id": "2",
+            "id": "1",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/burger_illustration_2.png",
             "title": "VEGGIE OPTIONS",
             "text": "Water spinach arugula pea tatsoi aubergine spring onion."
         },
         {
-            "id": "3",
+            "id": "2",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/burger_illustration_3.png",
             "title": "MILKSHAKES",
             "text": "Dandelion zucchini burdock yarrow chickpea dandelion sorrel."
         },
         {
-            "id": "4",
+            "id": "3",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/burger_illustration_4.png",
             "title": "DESSERTS",
             "text": "Chickweed okra pea winter purslane coriander yarrow sweet"
         }
     ],
     "menu": [{
-            "id": "1",
+            "id": "0",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner_burger_1-320x320.jpg",
             "name": "BEEF BURGERS",
             "infoText": "Beetroot water spinach okra water chestnut ricebean pea."
         },
         {
-            "id": "2",
+            "id": "1",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner_burger_2-320x320.jpg",
             "name": "CHICKEN BURGERS",
             "infoText": "Water spinach arugula pea tatsoi aubergine spring onion."
         },
         {
-            "id": "3",
+            "id": "2",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner_burger_3-320x320.jpg",
             "name": "VEGAN OPTIONS",
             "infoText": "Dandelion zucchini burdock yarrow chickpea dandelion sorrel."
         },
         {
-            "id": "4",
+            "id": "3",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner_burger_4-320x320.jpg",
             "name": "SALADS & WRAPS",
             "infoText": "Water spinach arugula pea tatsoi aubergine spring onion."
         },
         {
-            "id": "5",
+            "id": "4",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner_burger_5-320x320.jpg",
             "name": "FRENCH FRIES",
             "infoText": "Dandelion zucchini burdock yarrow chickpea dandelion sorrel."
         },
         {
-            "id": "6",
+            "id": "5",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner_burger_6-320x320.jpg",
             "name": "GREAT DESSERTS",
             "infoText": "Dandelion zucchini burdock yarrow chickpea dandelion sorrel."
         }
     ],
     "cards": [{
-            "id": "1",
+            "id": "0",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-left-1.jpg",
             "name": "FARMHOUSE BURGER",
             "text": "This burger’s name explains itself. Of course, you can also top it with crisp lettuce, tomatoes, ketchup, barbecue sauce and anything else.",
@@ -70,7 +70,7 @@
             "sale": "$2.99"
         },
         {
-            "id": "2",
+            "id": "1",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-right-1.jpg",
             "name": "QUINOA & BLACK BEAN BURGER",
             "text": "We can’t think of a better way to celebrate summer than with these omg-worthy hamburgers. Plus, try our over-the-top creative cheeseburgers.",
@@ -78,7 +78,7 @@
             "sale": ""
         },
         {
-            "id": "3",
+            "id": "2",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-left-2.jpg",
             "name": "CHOCOLATE MILKSHAKE",
             "text": "Milkshakes always taste good if you are a chocolate lover. You can throw one together with a cream or experiment with all kinds of extra flavors.",
@@ -86,7 +86,7 @@
             "sale": ""
         },
         {
-            "id": "4",
+            "id": "3",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-right-2.jpg",
             "name": "STANDARD BURGER MEAL",
             "text": "These incredible burger meal offer a unique twist to the classic hamburger, incorporating ingredients like pimento cheese and sesame.",
@@ -94,7 +94,7 @@
             "sale": "$2.99"
         },
         {
-            "id": "5",
+            "id": "4",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-left-3.jpg",
             "name": "CHECKOUT OUR CATERING MENU",
             "text": "Throwing the party is never been easier. Order now and let us spice up your party. Burger meals, french fries and cheeseburgers will cheer up your friends.",
@@ -102,7 +102,7 @@
             "sale": ""
         },
         {
-            "id": "6",
+            "id": "5",
             "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-right-3.jpg",
             "name": "HOW TO MAKE A PERFECT BURGER",
             "text": "We will tell you a little secret. Mixing best quality steak and pork and serves them on homemade herb-butter rolls is the best version we know.",
@@ -111,22 +111,50 @@
         }
     ],
     "swipes": [{
-        "id": "1",
+        "id": "0",
         "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner_burger_3-640x640.jpg",
         "title": "QUINOA & BLACK BEAN BURGER",
         "infoText": "We can’t think of a better way to celebrate summer than with these omg-worthy hamburgers",
-        "dop": "ONLY $4.99"
+        "dop": "ONLY $4.99",
+        "path2": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner-slider-3-640x640.jpg"
     }, {
-        "id": "2",
+        "id": "1",
         "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner_burger_2-640x640.jpg",
         "title": "FARMHOUSE BURGER",
         "infoText": "This burger’s name explains itself. Of course, you can also top it with crisp lettuce, tomatoes and anything else.",
-        "dop": "GREAT CHOICE"
+        "dop": "GREAT CHOICE",
+        "path2": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner-slider-2-640x640.jpg"
     }, {
-        "id": "3",
+        "id": "2",
         "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner_burger_4-640x640.jpg",
         "title": "STANDARD CAESAR SALAD",
         "infoText": "A great Caesar salad gets its swagger from a great dressing whose recipe we use for decades ",
-        "dop": "NEW"
-    }]
+        "dop": "NEW",
+        "path2": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/inner-slider-1-640x640.jpg"
+    }],
+    "people": [{
+            "id": "0",
+            "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2016/07/team_4.jpg",
+            "name": "Stela Jones",
+            "rank": "PÂTISSIER"
+        },
+        {
+            "id": "1",
+            "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2016/07/team_5.jpg",
+            "name": "Michaela Lee",
+            "rank": "COOK"
+        },
+        {
+            "id": "2",
+            "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2016/07/team_6.jpg",
+            "name": "John Smith",
+            "rank": "COOK"
+        },
+        {
+            "id": "3",
+            "path": "http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2016/07/team_7.jpg",
+            "name": "Kate Mathison",
+            "rank": "CHEF"
+        }
+    ]
 }

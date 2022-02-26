@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     // let navBar = document.querySelector('nav');
@@ -16,8 +17,8 @@ const Navigation = () => {
         <nav>
             <div className="container">
                 <ul className="navBar">
-                    <li>HOME</li>
-                    <li>PAGES</li>
+                    <Link to="/"><li>HOME</li></Link>
+                    <Link to="/about-us"><li>ABOUT US</li></Link> 
                     <li>OUR OFFER</li>
                     <li>GALLERIES</li>
                     <li>BLOG</li>

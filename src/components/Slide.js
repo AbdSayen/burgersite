@@ -1,6 +1,6 @@
-const Slide = ({ path, title, infoText, dop }) => {
+const Slide = ({ active, path, title, infoText, dop }) => {
     return (
-        <div class="slide">
+        <div className={"slide " + (active ? "active" : "")}>
             <div className="d-flex">
                 <img src={path} alt="" />
                 <div>

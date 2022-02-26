@@ -1,0 +1,46 @@
+.our-team {
+    margin-top: 5rem;
+    .container {
+        .dop {
+            background-color: red;
+            padding: 0.15rem 0.5rem;
+            width: 7rem;
+            color: white;
+        }
+        h1 {
+            font-size: 4rem;
+        }
+        .info-text {
+            font-size: 1.25rem;
+        }
+        .people {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+            .human {
+                text-align: center;
+                img {
+                    width: calc(90%);
+                }
+                .name {
+                    font-size: 1.25rem;
+                }
+                .icons {
+                    i {
+                        border: #333333 solid 1px;
+                        font-size: 1rem;
+                        padding: 0.3rem;
+                        margin: 0.5rem 0.25rem;
+                        color: white;
+                        background-color: #333333;
+                        transition: 0.15s;
+                        &:hover {
+                            color: #333333;
+                            background-color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

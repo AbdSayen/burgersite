@@ -44,6 +44,11 @@ nav {
   width: 100%;
 }
 
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
 nav .navBar {
   position: absolute;
   color: white;
@@ -126,6 +131,7 @@ nav .navBar li:hover {
 }
 
 .chooseEnjoy .CEProducts {
+  margin-top: 6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -243,16 +249,16 @@ nav .navBar li:hover {
           justify-content: flex-end !important;
 }
 
-.window {
+.slider {
   height: 30rem;
   position: relative;
 }
 
-.window .active {
+.slider .active {
   display: block !important;
 }
 
-.window .btn {
+.slider .btn {
   position: absolute;
   z-index: 3;
   bottom: 35%;
@@ -264,34 +270,35 @@ nav .navBar li:hover {
   font-size: 3rem;
 }
 
-.window .prev-btn {
+.slider .prev-btn {
   left: 0.5rem;
-  color: gray;
 }
 
-.window .next-btn {
+.slider .next-btn {
   right: 0.5rem;
-  color: gray;
 }
 
-.window .prev-btn,
-.window .next-btn {
+.slider .prev-btn,
+.slider .next-btn {
   font-size: 5rem;
+  color: gray;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
-.window .prev-btn:hover,
-.window .next-btn:hover {
+.slider .prev-btn:hover,
+.slider .next-btn:hover {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
 }
 
-.window .info-text {
+.slider .info-text {
   position: absolute;
   margin: 1rem;
   padding: 1rem;
@@ -300,7 +307,7 @@ nav .navBar li:hover {
   border-radius: 0.5rem;
 }
 
-.window .slide {
+.slider .slide {
   position: relative;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -308,29 +315,31 @@ nav .navBar li:hover {
   display: none;
   width: 100%;
   padding: 7rem 0;
+  -webkit-animation: identifier 0.5s;
+          animation: identifier 0.5s;
 }
 
-.window .slide .d-flex {
+.slider .slide .d-flex {
   width: 50rem;
   margin: auto !important;
 }
 
-.window .slide .d-flex img {
+.slider .slide .d-flex img {
   height: 25rem;
   margin-right: 3rem;
 }
 
-.window .slide .d-flex div {
+.slider .slide .d-flex div {
   margin-top: 2rem;
 }
 
-.window .slide .d-flex div .info-text {
+.slider .slide .d-flex div .info-text {
   margin: 0;
   padding: 0;
   width: 25rem;
 }
 
-.window .slide .d-flex div h5 {
+.slider .slide .d-flex div h5 {
   background-color: red;
   color: white;
   padding: 0.25rem 0.5rem;
@@ -339,19 +348,422 @@ nav .navBar li:hover {
   width: max-content;
 }
 
-.window .slide .d-flex div button {
+.slider .slide .d-flex div button {
   margin: 5rem 0;
   background: none;
   color: red;
 }
 
-.window .slide .d-flex div button:hover {
+.slider .slide .d-flex div button:hover {
   background-color: red;
   color: white;
 }
 
-footer {
-  width: 20rem;
+@-webkit-keyframes identifier {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+@keyframes identifier {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+.slider2 {
+  position: relative;
+  width: 100%;
+  height: 50rem;
+  padding-top: 6rem;
+  background-image: url(http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/background-classic-home-interior.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider2 .btn {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+}
+
+.slider2 .prev-btn {
+  left: 0;
+}
+
+.slider2 .next-btn {
+  right: 0;
+}
+
+.slider2 .window {
+  position: relative;
+  display: none;
+  width: 50%;
+  height: 85%;
+  margin: auto;
+  background-color: white;
+}
+
+.slider2 .window .info {
+  width: 40%;
+  padding: 5.5rem;
+}
+
+.slider2 .window .info .dop {
+  color: white;
   background-color: red;
+  padding: 0.25rem 0.5rem;
+  width: 8.5rem;
+}
+
+.slider2 .window .info h1 {
+  font-size: 2rem;
+}
+
+.slider2 .window img {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.slider2 .active .window {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+footer {
+  margin-top: 10%;
+}
+
+footer i {
+  color: red !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+footer i:hover {
+  color: white !important;
+}
+
+footer .call-us {
+  padding-left: 20%;
+  height: 25rem;
+  background-color: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .call-us .info {
+  padding-bottom: 20rem;
+  color: white;
+}
+
+footer .call-us .info .services-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .call-us .info .services-item i {
+  width: 5rem;
+  font-size: 3rem;
+  padding: 1rem 1rem;
+}
+
+footer .call-us .info .dop {
+  padding: 0.25rem 0.5rem;
+  background-color: red;
+  height: 2rem;
+  width: 4.8rem;
+  margin: 5rem 0 1rem 0;
+}
+
+footer .call-us .map {
+  position: absolute;
+  background-color: gainsboro;
+  width: 50%;
+  height: 25rem;
+  right: 0;
+}
+
+footer .app {
+  background-color: red;
+  padding: 2rem 0;
+}
+
+footer .app .container {
+  color: white;
+  width: 15rem;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .app .container button {
+  color: white;
+  border: 1px solid white;
+}
+
+footer .app .container button:hover {
+  color: black;
+  background-color: white;
+}
+
+footer .proov .container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .proov .container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .proov .container div h6 {
+  margin: 0 0.5rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+footer .proov .container div h6:hover {
+  color: red;
+}
+
+.about-us {
+  background-image: url(http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2016/09/hero_inner_page.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  color: white;
+  height: 30rem;
+  width: 100%;
+}
+
+.about-us .container {
+  padding: 11rem 0 5rem 0;
+}
+
+.about-us .container .transition {
+  background-color: red;
+  width: 6rem;
+  height: 0.25rem;
+}
+
+.about-us .container h1 {
+  font-size: 5rem;
+}
+
+.about-us .container h5 {
+  margin: 0;
+}
+
+.about-us .container .info-text {
+  font-size: 1.25rem;
+}
+
+.about-us .container .width-60 {
+  width: 60%;
+}
+
+.our-team {
+  margin-top: 5rem;
+}
+
+.our-team .container .dop {
+  background-color: red;
+  padding: 0.15rem 0.5rem;
+  width: 7rem;
+  color: white;
+}
+
+.our-team .container h1 {
+  font-size: 4rem;
+}
+
+.our-team .container .info-text {
+  font-size: 1.25rem;
+}
+
+.our-team .container .people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.our-team .container .people .human {
+  text-align: center;
+}
+
+.our-team .container .people .human img {
+  width: calc(90%);
+}
+
+.our-team .container .people .human .name {
+  font-size: 1.25rem;
+}
+
+.our-team .container .people .human .icons i {
+  border: #333333 solid 1px;
+  font-size: 1rem;
+  padding: 0.3rem;
+  margin: 0.5rem 0.25rem;
+  color: white;
+  background-color: #333333;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.our-team .container .people .human .icons i:hover {
+  color: #333333;
+  background-color: white;
+}
+
+.meet-the-chef {
+  margin-top: 8rem;
+  width: 100%;
+  height: 40rem;
+  background-color: #D6D8D7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.meet-the-chef .container {
+  position: relative;
+}
+
+.meet-the-chef .info {
+  padding-top: 8rem;
+  width: 45rem;
+}
+
+.meet-the-chef .info .h1 {
+  color: gray;
+  font-size: 8rem;
+}
+
+.meet-the-chef .info .info-text {
+  color: #6b6b6b;
+}
+
+.meet-the-chef .info .info-text2 {
+  color: #1d1d1d;
+}
+
+.meet-the-chef .info img {
+  width: 10rem;
+  height: 5rem;
+  position: absolute;
+  bottom: 5rem;
+}
+
+.meet-the-chef .man {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.galleries {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      grid-template-areas: "img1 img1 img2 img3 img3 img4" "img5 img6 img7 img7 img8 img9";
+}
+
+.galleries img {
+  height: 100%;
+  padding-top: -10rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 0.5rem;
+}
+
+.galleries .img1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: img1;
+}
+
+.galleries .img2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: img2;
+}
+
+.galleries .img3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-area: img3;
+}
+
+.galleries .img4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 6;
+  grid-area: img4;
+}
+
+.galleries .img5 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: img5;
+}
+
+.galleries .img6 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: img6;
+}
+
+.galleries .img7 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: img7;
+}
+
+.galleries .img8 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 5;
+  grid-area: img8;
+}
+
+.galleries .img9 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 6;
+  grid-area: img9;
 }
 /*# sourceMappingURL=style.css.map */

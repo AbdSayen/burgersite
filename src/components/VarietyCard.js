@@ -1,5 +1,3 @@
-import React from 'react';
-
 const VarietyCard = ({path, title, text}) => {
     return (
         <div className="VarietyCard">

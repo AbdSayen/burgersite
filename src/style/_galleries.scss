@@ -1,0 +1,39 @@
+.galleries {
+    display: grid;
+    justify-content: center;
+    grid-template-areas: "img1 img1 img2 img3 img3 img4" "img5 img6 img7 img7 img8 img9";
+    img {
+        height: 100%;
+        padding-top: -10rem;
+        width: 100%;
+        object-fit: cover;
+        padding: 0.5rem;
+    }
+    .img1 {
+        grid-area: img1;
+    }
+    .img2 {
+        grid-area: img2;
+    }
+    .img3 {
+        grid-area: img3;
+    }
+    .img4 {
+        grid-area: img4;
+    }
+    .img5 {
+        grid-area: img5;
+    }
+    .img6 {
+        grid-area: img6;
+    }
+    .img7 {
+        grid-area: img7;
+    }
+    .img8 {
+        grid-area: img8;
+    }
+    .img9 {
+        grid-area: img9;
+    }
+}
