@@ -156,5 +156,30 @@
             "name": "Kate Mathison",
             "rank": "CHEF"
         }
+    ],
+    "awards": [{
+            "id": "0",
+            "path": "https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2016/07/client-logo-1-black.png"
+        },
+        {
+            "id": "1",
+            "path": "https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2016/07/client-logo-2-black-320x320.png"
+        },
+        {
+            "id": "2",
+            "path": "https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2016/07/client-logo-9-black-320x320.png"
+        },
+        {
+            "id": "3",
+            "path": "https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2016/07/client-logo-3-black-320x320.png"
+        },
+        {
+            "id": "4",
+            "path": "https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2016/07/client-logo-4-black-320x320.png"
+        },
+        {
+            "id": "5",
+            "path": "https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2016/07/client-logo-5-black-320x320.png"
+        }
     ]
 }

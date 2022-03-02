@@ -1,4 +1,5 @@
 import Aboutusbanner from "../components/AboutUsBanner"
+import Awards from "../components/Awards";
 import ChooseEnjoy from "../components/ChooseEnjoy"
 import Galleries from "../components/Galleries";
 import Meetthechef from "../components/MeetTheChef"
@@ -14,6 +15,7 @@ const Aboutus = () => {
             <Galleries />
             <ChooseEnjoy nItems={3} hasTitle={false} />
             <Slider2 />
+            <Awards />
         </div>
     );
 }
