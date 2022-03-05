@@ -6,7 +6,7 @@ const Ourteam = () => {
     const [isLoading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch('http://localhost:8000/people')
+        fetch('https://burger-site-api.herokuapp.com/people')
             .then((response) => response.json())
             .then(data => {
                 setInfo(data);

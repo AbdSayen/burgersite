@@ -7,7 +7,7 @@ const ChooseEnjoy = ({ nItems, hasTitle }) => {
     const [someData, setData] = useState(null);
 
     useEffect(() => {
-        fetch('http://localhost:8000/menu')
+        fetch('https://burger-site-api.herokuapp.com/menu')
             .then((response) => response.json())
             .then(data => {
                 setInfo(data);

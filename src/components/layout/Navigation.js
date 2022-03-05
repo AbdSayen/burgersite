@@ -1,25 +1,28 @@
-import React from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
-    // let navBar = document.querySelector('nav');
-    // window.onscroll = function () { scroll() };
+    const [changeColor, setChangeColor] = useState(false);
 
-    // function scroll() {
-    //     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    //         navBar.style.background = "white";
-    //     } else {
-    //         navBar.style.background = "transparent";
-    //     }
-    // }
+    useEffect(() => {
+        window.addEventListener('scroll', listenScrollEvent)
+    });
+
+    const listenScrollEvent = () => {
+        if (window.scrollY > window.innerHeight) {
+            setChangeColor(true);
+        } else {
+            setChangeColor(false);
+        }
+    }
 
     return (
         <nav>
             <div className="container">
-                <ul className="navBar">
+                <ul className={"navBar " + (changeColor ? "scrolled" : "")}>
                     <Link to="/"><li>HOME</li></Link>
-                    <Link to="/about-us"><li>ABOUT US</li></Link> 
-                    <li>OUR OFFER</li>
+                    <Link to="/about-us"><li>ABOUT US</li></Link>
+                    <Link to="/our-menu"><li>OUR OFFER</li></Link>
                     <li>GALLERIES</li>
                     <li>BLOG</li>
                     <li>SHOP</li>

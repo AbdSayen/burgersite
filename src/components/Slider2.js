@@ -8,7 +8,7 @@ const Slider2 = () => {
     const [index, setIndex] = useState(0);
 
     useEffect(() => {
-        fetch('http://localhost:8000/swipes')
+        fetch('https://burger-site-api.herokuapp.com/swipes')
             .then((response) => response.json())
             .then(data => {
                 setInfo(data);

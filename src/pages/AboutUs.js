@@ -8,15 +8,15 @@ import Slider2 from "../components/Slider2";
 
 const Aboutus = () => {
     return (
-        <div>
-            <Aboutusbanner />
+        <>
+            <Aboutusbanner titleText="ABOUT US" infoText="Capitalise on low hanging fruit to identify a ballpark value added activity to beta performance test. Override the digital divide."/>
             <Ourteam />
             <Meetthechef />
             <Galleries />
             <ChooseEnjoy nItems={3} hasTitle={false} />
             <Slider2 />
             <Awards />
-        </div>
+        </>
     );
 }
 

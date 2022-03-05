@@ -8,7 +8,7 @@ const VarietyCards = () => {
     const [isLoading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch('http://localhost:8000/varietry')
+        fetch('https://burger-site-api.herokuapp.com/varietry')
             .then((response) => response.json())
             .then(data => {
                 setInfo(data);

@@ -7,7 +7,7 @@ const Awards = () => {
     const [isLoading, setLoading] = useState(true)
 
     useEffect(() => {
-        fetch('http://localhost:8000/awards')
+        fetch('https://burger-site-api.herokuapp.com/awards')
             .then((response) => response.json())
             .then(data => {
                 setInfo(data);
