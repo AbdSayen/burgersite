@@ -10,6 +10,7 @@ import Layout1 from './pages/layouts/Layout1';
 import GalleriesPage from './pages/GalleriesPage';
 import Galleriesopenedel from './components/GalleriesOpenedEl';
 import Brand from './pages/Brand';
+import Blog from './pages/Blog';
 
 const history = createBrowserHistory({ forceRefresh: true });
 
@@ -25,6 +26,7 @@ function App() {
             <Route path='galleries' element={<GalleriesPage />} />
             <Route path='brand' element={<Brand />} />
             <Route path='galleries-opened/:id' element={<Galleriesopenedel />} />
+            <Route path='blog' element={<Blog />}/>
           </Route>
           <Route path='*' element={<Navigate to="/404" />} />
           <Route path='/404' element={<Notfound />} />

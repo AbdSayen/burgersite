@@ -19,7 +19,8 @@
         "_notFound.scss",
         "_menu.scss",
         "_galleriesPage.scss",
-        "_brand.scss"
+        "_brand.scss",
+        "_blog.scss"
     ],
     "names": [],
     "file": "style.css"
