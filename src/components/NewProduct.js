@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NewProduct = ({ path, name, text, price, sale }) => {
+const NewProduct = ({ path, name, text, price }) => {
     return (
         <div className="newProduct" style={{ backgroundImage: `url(${path})` }}>
             <div className="text-container">

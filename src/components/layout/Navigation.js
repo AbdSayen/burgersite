@@ -17,16 +17,23 @@ const Navigation = () => {
     }
 
     return (
-        <nav>
+        <nav className={(changeColor ? "scrolled" : "")}>
             <div className="container">
-                <ul className={"navBar " + (changeColor ? "scrolled" : "")}>
+                <img src="http://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/logo-classic-red-background.png" alt=""/>
+                <ul className="navBar">
                     <Link to="/"><li>HOME</li></Link>
                     <Link to="/about-us"><li>ABOUT US</li></Link>
                     <Link to="/our-menu"><li>OUR OFFER</li></Link>
-                    <li>GALLERIES</li>
-                    <li>BLOG</li>
-                    <li>SHOP</li>
+                    <Link to="/galleries"><li>GALLERIES</li></Link>
+                    <Link to="/brand"><li>BLOG</li></Link>
+                    <Link to="/brand"><li>SHOP</li></Link>             
                 </ul>
+                <div className="icons">
+                    <i className="fa-brands fa-facebook-f"></i>
+                    <i className="fa-brands fa-twitter"></i>
+                    <i className="fa-brands fa-google"></i>
+                    <i className="fa-brands fa-vk"></i>
+                </div>
             </div>
         </nav>
     );

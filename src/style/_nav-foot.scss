@@ -1,4 +1,10 @@
 nav {
+    z-index: 100;
+    transition: 0.5s;
+    .container {
+        display: flex;
+        position: relative;
+    }
     position: fixed;
     width: 100%;
     a {
@@ -7,9 +13,11 @@ nav {
     }
     .navBar {
         position: absolute;
+        z-index: 100;
         color: white;
         display: flex;
         padding: 0;
+        margin-left: 10rem;
         li {
             padding: 2rem 0;
             margin-right: 2rem !important;
@@ -18,6 +26,28 @@ nav {
             &:hover {
                 color: red;
             }
+        }
+    }
+    .icons {
+        position: absolute;
+        right: 0;
+        i {
+            color: white;
+            font-size: 1.5rem;
+            margin: 2rem 1rem;
+        }
+    }
+}
+
+.scrolled {
+    background-color: white;
+    color: black !important;
+    li {
+        color: black;
+    }
+    .icons {
+        i {
+            color: black;
         }
     }
 }
