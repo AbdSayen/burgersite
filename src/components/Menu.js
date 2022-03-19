@@ -10,9 +10,9 @@ const Menu = ({ titleText, infoText, type }) => {
             .then((response) => response.json())
             .then(data => {
                 setLoading(false);
-                const obj = data[0].dishes;
+                const obj = data[0][type];
                 setInfo(obj)
-                console.log(data[0].dishes);
+                console.log(data[0][type]);
             })
             .catch(err => {
                 console.log(err.message)

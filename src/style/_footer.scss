@@ -37,6 +37,10 @@ footer {
             width: 50%;
             height: 25rem;
             right: 0;
+            iframe {
+                width: 100% !important;
+                height: 100% !important;
+            }
         }
     }
     .app {

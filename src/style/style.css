@@ -95,6 +95,8 @@ nav .icons i {
 .scrolled {
   background-color: white;
   color: black !important;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .scrolled li {
@@ -530,6 +532,11 @@ footer .call-us .map {
   width: 50%;
   height: 25rem;
   right: 0;
+}
+
+footer .call-us .map iframe {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 footer .app {
