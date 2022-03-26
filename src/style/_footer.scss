@@ -1,5 +1,7 @@
 footer {
-    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     i {
         color: red !important;
         transition: 0.3s;
@@ -8,12 +10,14 @@ footer {
         }
     }
     .call-us {
-        padding-left: 20%;
         height: 25rem;
         background-color: #232323;
         display: flex;
+        flex-wrap: wrap;
         .info {
-            padding-bottom: 20rem;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
             color: white;
             .services-item {
                 display: flex;
@@ -32,11 +36,8 @@ footer {
             }
         }
         .map {
-            position: absolute;
             background-color: gainsboro;
-            width: 50%;
             height: 25rem;
-            right: 0;
             iframe {
                 width: 100% !important;
                 height: 100% !important;
@@ -81,3 +82,5 @@ footer {
         }
     }
 }
+
+@media only screen and (max-width: 1000px) {}

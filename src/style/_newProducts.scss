@@ -65,3 +65,34 @@
         justify-content: flex-end !important;
     }
 }
+
+@media only screen and (max-width: 1600px) {
+    .newProduct {
+        width: 100% !important;
+        .text-width {
+            margin: auto;
+            h1 {
+                font-size: 220% !important;
+            }
+            .info-text {
+                font-size: 100% !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .newProduct {
+        text-align: center !important;
+        margin: auto;
+        .text-width {
+            width: 100% !important;
+        }
+        .new-text {
+            margin: auto !important;
+        }
+        button {
+            padding: 0.8rem !important;
+        }
+    }
+}

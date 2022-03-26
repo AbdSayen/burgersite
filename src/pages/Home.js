@@ -18,7 +18,7 @@ const Home = () => {
             <VarietyCards />
             <ChooseEnjoy nItems={6} hasTitle={true}/>
             <NewProducts />
-            <Slider />
+            {/* <Slider /> */}
         </>
     );
 }

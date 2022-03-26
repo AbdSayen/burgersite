@@ -5,10 +5,10 @@
     padding: 3rem 0;
     .cards {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .VarietyCard {
-        width: 15rem;
         img {
             width: 10rem;
             height: 10rem;

@@ -17,8 +17,8 @@ const Footer = () => {
     return (
         <>
             <footer>
-                <div className="call-us">
-                    <div className="info">
+                <div className="call-us col-md-12 col-sm-12  col-12">
+                    <div className="info col-md-6 col-sm-12 col-12">
                         <div className="dop">CALL US</div>
                         <h1>+1-202-555-016</h1>
                         <div className="services-item">
@@ -43,7 +43,7 @@ const Footer = () => {
                         <div className="icons"></div>
                     </div>
 
-                    <div className="map">
+                    <div className="map col-md-6 col-sm-12 col-12">
                         {/* <GoogleMapReact
                             bootstrapURLKeys={{ key: keyGoogleMap }}
                             defaultCenter={coordinates.center}

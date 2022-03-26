@@ -118,13 +118,11 @@ nav .icons i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.VarietyCards .VarietyCard {
-  width: 15rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .VarietyCards .VarietyCard img {
@@ -133,17 +131,23 @@ nav .icons i {
   margin-bottom: 2rem;
 }
 
-.chooseEnjoy .info {
+.chooseEnjoy {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.chooseEnjoy .container .info {
   text-align: center;
   padding-top: 10rem;
   margin: 3rem 0;
 }
 
-.chooseEnjoy .info h1 {
+.chooseEnjoy .container .info h1 {
   font-size: 5rem;
 }
 
-.chooseEnjoy .info h5 {
+.chooseEnjoy .container .info h5 {
   background-color: red;
   padding: 0.5rem;
   width: 13.5rem;
@@ -151,11 +155,11 @@ nav .icons i {
   margin: auto;
 }
 
-.chooseEnjoy .info p {
+.chooseEnjoy .container .info p {
   font-size: 1.7rem;
 }
 
-.chooseEnjoy button {
+.chooseEnjoy .container button {
   color: red;
   background: none;
   border: 1px red solid;
@@ -163,26 +167,29 @@ nav .icons i {
   transition: 0.3s;
 }
 
-.chooseEnjoy button:hover {
+.chooseEnjoy .container button:hover {
   color: white;
   background-color: red;
 }
 
-.chooseEnjoy .CEProducts {
+.chooseEnjoy .container .CEProducts {
   margin-top: 6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.chooseEnjoy .CEProducts .CEProduct {
+.chooseEnjoy .container .CEProducts .CEProduct {
   text-align: center;
-  width: calc(100% / 3 - 2%);
+  width: 25rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .newProducts {
@@ -285,6 +292,37 @@ nav .icons i {
   -webkit-box-pack: end !important;
       -ms-flex-pack: end !important;
           justify-content: flex-end !important;
+}
+
+@media only screen and (max-width: 1600px) {
+  .newProduct {
+    width: 100% !important;
+  }
+  .newProduct .text-width {
+    margin: auto;
+  }
+  .newProduct .text-width h1 {
+    font-size: 220% !important;
+  }
+  .newProduct .text-width .info-text {
+    font-size: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .newProduct {
+    text-align: center !important;
+    margin: auto;
+  }
+  .newProduct .text-width {
+    width: 100% !important;
+  }
+  .newProduct .new-text {
+    margin: auto !important;
+  }
+  .newProduct button {
+    padding: 0.8rem !important;
+  }
 }
 
 .slider {
@@ -397,6 +435,12 @@ nav .icons i {
   color: white;
 }
 
+@media only screen and (max-width: 1000px) {
+  .slider {
+    padding-bottom: 10rem !important;
+  }
+}
+
 @-webkit-keyframes identifier {
   0% {
     opacity: 0;
@@ -479,7 +523,15 @@ nav .icons i {
 }
 
 footer {
-  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 footer i {
@@ -493,16 +545,26 @@ footer i:hover {
 }
 
 footer .call-us {
-  padding-left: 20%;
   height: 25rem;
   background-color: #232323;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 footer .call-us .info {
-  padding-bottom: 20rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: white;
 }
 
@@ -527,11 +589,8 @@ footer .call-us .info .dop {
 }
 
 footer .call-us .map {
-  position: absolute;
   background-color: gainsboro;
-  width: 50%;
   height: 25rem;
-  right: 0;
 }
 
 footer .call-us .map iframe {
