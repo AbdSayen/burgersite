@@ -39,6 +39,22 @@
   width: 13.5rem;
 }
 
+@media only screen and (max-width: 1000px) {
+  .home {
+    padding-top: 10%;
+    text-align: center;
+  }
+  .home h5 {
+    margin: auto;
+  }
+  .home h1 {
+    font-size: 4rem !important;
+  }
+  .home button {
+    margin: auto;
+  }
+}
+
 nav {
   z-index: 100;
   -webkit-transition: 0.5s;

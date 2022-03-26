@@ -17,3 +17,19 @@
         }
     }
 }
+
+@media only screen and (max-width: 1000px) {
+    .home {
+        padding-top: 10%;
+        text-align: center;
+        h5 {
+            margin: auto;
+        }
+        h1 {
+            font-size: 4rem !important;
+        }
+        button {
+            margin: auto;
+        }
+    }
+}
